@@ -20,6 +20,6 @@ id int PRIMARY KEY AUTO_INCREMENT,
 userId int NOT NULL,
 carBrandId int NOT NULL,
 carModelId int NOT NULL,
-mileage int,
-initialMilleage int
+mileage float,
+initialMilleage float
 );
