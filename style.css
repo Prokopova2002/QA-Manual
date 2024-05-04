@@ -1,0 +1,31 @@
+body {
+	background: url(img.html/background.png);
+}
+
+p {
+	color: back;
+	font-size: 16px;
+	border: 3px dotted darkred;
+}
+
+h2 {
+	color: darkred;
+}
+
+#my_heading {
+	color: black;
+	text-align: center;
+}
+
+.my_headers {
+	color: darkred;
+	font-size: 25px;
+	font-family: cursive;
+	text-align: center;
+}
+
+.my_params {
+	margin: 10px;
+	padding: 10px;
+}
+
