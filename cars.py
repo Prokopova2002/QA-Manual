@@ -1,10 +1,10 @@
 import random
 class Car:
-    def __init__(self, model, color, economy):
-        self.mileage = 0
+    def __init__(self, model, color, economy, mileage=0, fuel=100):
+        self.mileage = mileage
         self.model = model
         self.economy = economy
-        self.fuel = 100
+        self.fuel = fuel
         self.color = color
     def drive(self, distance):
         fuel_needed = distance / self.economy
