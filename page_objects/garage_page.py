@@ -56,3 +56,5 @@ class AddFuelExpense(BasePage):
         self._driver.find_element(
             By.XPATH, "//button[@class='btn btn-primary']"
         ).click()
+
+
